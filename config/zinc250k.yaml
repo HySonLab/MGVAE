@@ -1,0 +1,11 @@
+data:
+  data: ZINC250k
+  dir: './data'
+  batch_size: 512
+  max_node_num: 38
+  max_feat_num: 9
+  init: atom
+
+train:
+  num_epochs: 100
+  ckpt_path: "./checkpoints/zinc250k/vae.pt"

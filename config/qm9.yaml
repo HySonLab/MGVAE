@@ -1,0 +1,11 @@
+data:
+  data: QM9
+  dir: './data'
+  batch_size: 1024
+  max_node_num: 9
+  max_feat_num: 4
+  init: atom
+
+train:
+  num_epochs: 100
+  ckpt_path: "./checkpoints/qm9/vae.pt"

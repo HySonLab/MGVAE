@@ -1,0 +1,1 @@
+python3 train.py  --config zinc250k --seed 42 
